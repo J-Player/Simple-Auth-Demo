@@ -1,0 +1,4 @@
+.vscode
+!.gitignore
+!backend
+!frontend

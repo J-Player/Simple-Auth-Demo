@@ -1,0 +1,3 @@
+label {
+  @apply hover:cursor-pointer disabled:cursor-not-allowed;
+}

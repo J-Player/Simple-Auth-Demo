@@ -1,4 +1,19 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic",
-    "java.configuration.updateBuildConfiguration": "interactive"
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "css.customData": [".vscode/tailwind.json"],
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+    "source.addMissingImports.ts": "always",
+    "source.removeUnused.ts": "always",
+    "source.sortImports": "always"
+  },
+  "eslint.workingDirectories": [
+    {
+      "directory": "frontend"
+    }
+  ],
 }
