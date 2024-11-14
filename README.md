@@ -13,11 +13,11 @@ Uma simples demonstração de um sistema de autenticação usando Spring Boot e 
 ## Características
 
 - Backend
- - API reativa desenvolvida com Spring Boot Webflux
- - Método de autenticação usando JSON Web Token (JWT):
-   - *Access Token*
-   - *Refresh Token*
-     - Retornado para o cliente em um *Cookie* `HttpOnly`.
+  - API reativa desenvolvida com Spring Boot Webflux
+  - Método de autenticação usando JSON Web Token (JWT):
+    - *Access Token*
+    - *Refresh Token*
+      - Retornado para o cliente em um *Cookie* `HttpOnly`.
 - Frontend
   - Desenvolvido com React
   - Após efetuado o login:
